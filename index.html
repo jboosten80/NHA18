@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Huiswerkopdracht voor Les 18 van de NHA Cursus.">
+        <meta name="keywords" content="NHA, Cursus, Les 18, Huiswerk, Opdracht">
+        <meta name="author" content="Joseph Boosten">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+        <title>Heerlen</title>
+
+        <!-- CSS styles -->
+
+        <style>
+
+            body {
+                font-family: 'Familjen Grotesk', sans-serif;
+                margin: 0;
+                padding: 0;
+            }
+
+            header {
+                padding: 20px;
+                text-align: center;
+                background-image: url('https://www.zo-nws.nl/sites/default/files/2023-04/heerlen_jan_smeets2.jp_.jpg');
+                background-size: cover;
+                background-position: center;
+                min-height: 250px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            h1 {
+                color: #ffffff;
+                font-size: 40px;
+                margin: 0;
+                padding: 0 20px;
+                background-color: rgba(0, 0, 0, 0.5);
+                border-radius: 20px;
+                border: 2px solid #ffffff;
+            }
+
+            main {
+                padding: 20px;
+            }
+
+            footer {
+                background-color: #ffffff;
+                padding: 10px;
+                text-align: center;
+            }
+
+            [class*="col-"] {
+                width: 100%;
+                padding: 15px;
+                box-sizing: border-box;
+            }
+
+            .facts {
+                background-color: #ffffff;
+            }
+
+            .articles {
+                background-color: #f2f2f2; 
+            }
+
+            .article-image {
+                width: 100%;
+                max-width: 200px;
+                height: auto;
+            }
+
+            .content::after,
+            .articles::after,
+            .article-box::after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+
+            @media (min-width: 768px) {
+
+                h1 {
+                    font-size: 100px;
+                }
+
+                [class*="col-"] {
+                    float: left;
+                }
+
+                .col-1 {width: 8.33%;}
+                .col-2 {width: 16.66%;}
+                .col-3 {width: 25%;}
+                .col-4 {width: 33.33%;}
+                .col-5 {width: 41.66%;}
+                .col-6 {width: 50%;}
+                .col-7 {width: 58.33%;}
+                .col-8 {width: 66.66%;}
+                .col-9 {width: 75%;}
+                .col-10 {width: 83.33%;}
+                .col-11 {width: 91.66%;}
+                .col-12 {width: 100%;}
+
+                .content {
+                    display: flex;
+                }
+                .content::after {
+                    display: none;
+                }
+            }
+
+        </style>
+    </head>
+
+    <body>
+
+        <!-- Header -->
+
+        <header>
+            <h1>Heerlen</h1>
+        </header>
+
+        <!-- Main content -->
+
+        <main class="container">
+            <section class="content">
+
+                <!-- Linkerdeel: 2 kolommen -->
+                <aside class="facts col-2">
+                    <h2>Feiten over Heerlen</h2>
+                    <ul>
+                        <li>Heerlen is een stad in het zuiden van Nederland, in de provincie Limburg.</li>
+                        <li>Het staat bekend om zijn rijke geschiedenis, cultuur en architectuur.</li>
+                        <li>Heerlen heeft een aantal interessante bezienswaardigheden, zoals het Thermenmuseum en het Glaspaleis.</li>
+                        <li>De stad heeft ook een bruisend uitgaansleven met diverse restaurants, cafés en theaters.</li>
+                        <li>Heerlen is goed bereikbaar met het openbaar vervoer en ligt dicht bij de Duitse grens, waardoor het een populaire bestemming is voor toeristen.</li>
+                    </ul>
+                </aside>
+
+                <!-- Rechterdeel: 9 kolommen -->
+                <section class="articles col-9">
+
+                    <div class="article-box">
+                        <article class="article-text col-8">
+                            <h3>Geschiedenis van Heerlen</h3>
+                            <p>Heerlen heeft een rijke geschiedenis die teruggaat tot de Romeinse tijd. De stad was een belangrijk centrum voor de mijnbouwindustrie in de 20e eeuw, wat heeft bijgedragen aan de economische groei en ontwikkeling van de regio.</p>
+                        </article>
+                        <div class="col-4">
+                            <img
+                                class="article-image"
+                                src="https://upload.wikimedia.org/wikipedia/commons/8/86/Glaspaleis_Heerlen_2025.jpg?utm_source=nl.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+                                alt="Glaspaleis in Heerlen"
+                            />
+                        </div>
+                    </div>
+
+                    <div class="article-box">
+                        <article class="article-text col-8">
+                            <h3>Cultuur en evenementen</h3>
+                            <p>Heerlen biedt een breed scala aan culturele evenementen, zoals muziekfestivals, kunsttentoonstellingen en theaterproducties. De stad heeft ook diverse musea en galerieën die de rijke geschiedenis en cultuur van de regio laten zien.</p>
+                        </article>
+                        <div class="col-4">
+                            <img
+                                class="article-image"
+                                src="https://upload.wikimedia.org/wikipedia/commons/e/e1/2015-Heerlen%2C_Thermenmuseum%2C_opgraving_05.jpg?utm_source=nl.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+                                alt="Thermenmuseum in Heerlen"
+                            />
+                        </div>
+                    </div>
+
+                </section>
+            </section>
+        </main>
+
+        <!-- Footer -->
+
+        <footer>
+            <p>&copy; 2026 Joseph Boosten</p>
+        </footer>
+
+    </body>
+</html>
